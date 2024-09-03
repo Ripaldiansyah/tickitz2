@@ -1,0 +1,71 @@
+<!DOCTYPE html data-theme="mytheme">
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    name="viewport" />
+  <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+  <link href="styles/output.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet" />
+  <title>Document</title>
+</head>
+
+<body>
+  <main class="flex sm:mr-20 lg:mr-0 font-mulish">
+    <div
+      class="container hidden sm:w-1/2 lg:w-3/4 h-[100vh] overflow-hidden sm:flex relative items-center justify-center">
+      <div class="absolute inset-0 z-10 bg-opacity-50 bg-primary"></div>
+      <img src="assets/images/banner.jpg" class="z-0 object-cover w-full h-full" />
+      <div class="absolute z-20">
+        <img src="assets/images/logo.png" class="sm:w-52 lg:w-full" />
+        <h1 class="text-center text-white sm:text-2xl lg:text-5xl">
+          wait, watch, wow!
+        </h1>
+      </div>
+    </div>
+    <div class="container w-[90vw] pl-[10vw] sm:ml-20 sm:pl-0 lg:w-1/3 lg:mr-20 sm:w-1/2">
+      <div class="container mt-10 sm:mt-20">
+        <img class="w-32 sm:hidden" src="assets/images/logo-purple.png" />
+        <h1 class="mt-8 text-3xl font-bold font-inter sm:text-5xl">
+          Sign Up
+        </h1>
+        <p class="text-[#8692A6]">Fill your additional details</p>
+      </div>
+
+      <div class="container w-full mt-10">
+        <form>
+          <label for="first-name">First name</label>
+          <input type="text" id="first-name" placeholder="Write your firstname"
+            class="w-full p-6 mt-2 mb-4 border border-gray-400 rounded-md h-11 focus:border-primary focus:border-2 focus:outline-none" />
+          <label for="last-name">Last name</label>
+          <input type="text" id="last-name" placeholder="Write your Lastname"
+            class="w-full p-6 mt-2 mb-4 border border-gray-400 rounded-md h-11 focus:border-primary focus:border-2 focus:outline-none" />
+          <label for="phone-number" class="mt-6">Phone Number</label>
+          <input type="number" id="phone-number" placeholder="Write your Phone number"
+            class="w-full p-6 mt-2 mb-4 border border-gray-400 rounded-md h-11 focus:border-primary focus:border-2 focus:outline-none" />
+          <label for="email" class="mt-6">Email</label>
+          <input type="email" id="email" placeholder="Write your email"
+            class="w-full p-6 mt-2 mb-4 border border-gray-400 rounded-md h-11 focus:border-primary focus:border-2 focus:outline-none" />
+          <label for="password" class="mt-6">Password</label>
+          <input type="password" id="password" placeholder="Write your password"
+            class="w-full p-6 mt-2 mb-8 border border-gray-400 rounded-md h-11 focus:border-primary focus:border-2 focus:outline-none" />
+
+          <button class="w-full btn btn-primary">Simpan</button>
+          <p class="font-inter text-[#8692A6] font-semibold mt-2 text-center">
+            Already have account ?
+            <a href="" class="underline text-primary">Sign In</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
